@@ -1,0 +1,104 @@
+textarea,
+input {
+  background-color: #FFF;
+}
+
+.contact {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.contact h2 {
+  margin-bottom: 20px;
+}
+
+.contact a {
+  color: #007BFF;
+}
+
+.labelRow,
+.inputRow {
+  margin-top: 0.5rem;
+}
+
+label,
+input {
+  display: inline-block;
+}
+
+label {
+  vertical-align: top;
+  color: #FFF;
+}
+
+input,
+#message {
+  width: 96%;
+  color: #000;
+}
+
+input {
+  height: 1.5rem;
+}
+
+#message {
+  height: 8rem;
+}
+
+section#contact div#formContainer {
+  padding: 1rem 1rem;
+  width: 24rem;
+  background-color: #5c51d6;
+  border-radius: 12px;
+  margin: 5rem auto;
+}
+
+section#contact div#formContainer h2 {
+  text-align: center;
+  margin-top: 1rem;
+  color: #FFF;
+}
+
+section#contact button {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding: .5rem 2rem;
+  background-color: #CBC3E3;
+  border-radius: 8px;
+  border: none;
+  font-size: 1.2em;
+  color: #000;
+}
+
+.buttonRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  section#contact div#formContainer {
+    width: 18rem;
+  }
+  label {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+  section#contact div#formContainer {
+    width: 20rem;
+  }
+  label {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  section#contact div#formContainer {
+    width: 20rem;
+  }
+  label {
+    font-size: 1.2em;
+  }
+}

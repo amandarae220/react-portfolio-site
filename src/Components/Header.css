@@ -1,0 +1,33 @@
+nav {
+  position: fixed;
+  top: 0;
+  background-color: #5c51d6;
+  color: white;
+  padding: 0px 6rem 0px 0px;
+  width: 100vw;
+  z-index: 1000;
+  box-shadow: 0 4px 2px -2px gray;
+  /* Optional: Adds shadow for better separation */
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: right;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  color: #5c51d6;
+  /* Optional: Hover effect */
+}

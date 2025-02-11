@@ -1,0 +1,42 @@
+/*
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  */
+
+  footer {
+    text-align: center;
+  }
+  
+/*
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+
+  footer ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+
+  footer ul li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+
+  footer ul li a {
+      text-decoration: none;
+      color: white;
+    }
+    */
+
+    img {
+      max-height: 2rem;
+      padding: 1rem;
+    }

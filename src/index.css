@@ -1,0 +1,233 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Basic Reset */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  padding-top: 4em;
+}
+
+section#home,
+section#contact {
+  height: 100vh;
+}
+
+section#about {
+  height: 25%;
+}
+
+section#projects {
+  height: 85%;
+}
+
+/* Other Styles for Layout */
+
+h1,
+h2 {
+  font-family: "Gloock", serif;
+  text-align: left;
+}
+
+h1 {
+  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
+  color: #5c51d6;
+}
+
+h2 {
+  font-size: 3em;
+  color: #000;
+}
+
+.project {
+  background-color: #f4f4f4;
+  padding: 20px;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+  margin-top: 0;
+}
+
+.labelRow,
+.inputRow {
+  margin-top: 0.5rem;
+}
+
+label,
+input {
+  display: inline-block;
+}
+
+label {
+  vertical-align: top;
+  color: #FFF
+}
+
+input,
+#message {
+  width: 96%;
+}
+
+input {
+  height: 1.5rem;
+}
+
+#message {
+  height: 8rem;
+}
+
+section#contact div#formContainer {
+  padding: 1rem 1rem;
+  margin-top: 4rem;
+  width: 20rem;
+  background-color: #5c51d6;
+  border-radius: 12px;
+}
+
+section#contact div#formContainer h2 {
+  text-align: center;
+  margin-top: 1rem;
+  color: #FFF;
+}
+
+section#contact button {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding: .5rem 2rem;
+  background-color: #CBC3E3;
+  border-radius: 8px;
+  /* box-shadow: none; */
+  border: none;
+}
+
+.buttonRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#buttonContainer a {
+  border: 2px solid #5c51d6;
+  border-radius: 6px;
+  background-color: #5c51d6;
+  color: #FFF;
+  padding: 1rem;
+  width: 8rem;
+  text-align: center;
+}
+
+#buttonContainer {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+#hero {
+display: block;
+width: 95vw;
+margin-bottom: 5rem;
+}
+div#hero p, 
+div#hero h1  {
+  text-align: left;
+  width: calc((100% - 2rem));
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 2rem;
+}
+h2 {
+  font-size: 2em;
+}
+p {
+  font-size: 1em;
+}
+}
+
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+#hero {
+display: block;
+width: 95vw;
+padding: 0px 2rem;
+margin-bottom: 5rem;
+}
+#hero, #buttonContainer {
+padding: 0px 2rem;
+}
+div#hero p, 
+div#hero h1 {
+  text-align: left;
+  width: calc((100% - 4rem));
+  margin-bottom: 2rem;
+}
+h1 {
+  font-size: 4em;
+}
+h2 {
+  font-size: 3em;
+}
+
+p {
+  font-size: 1.25em;
+}
+}
+
+@media screen and (min-width: 1201px) {
+#hero {
+display: flex;
+width: 95vw;
+}
+#hero, #buttonContainer {
+padding: 0px 3rem;
+}
+div#hero p {
+  text-align: right;
+  display: inline-block;
+  align-self: end;
+  margin-bottom: 4rem;
+  width: calc((100% - 6rem)/2);
+}
+div#hero h1 {
+  text-align: left;
+  display: inline-block;
+  width: calc((100% - 6rem)/2);
+  margin-bottom: 2rem;
+}
+h1 {
+  font-size: 5em;
+}
+h2 {
+  font-size: 4em;
+}
+p {
+  font-size: 1.5em;
+}
+}
